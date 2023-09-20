@@ -24,6 +24,13 @@ class MyDocument extends Document {
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
           <script type="text/javascript" src="https://zcode15.me/?ze=mq4wembsgm5ha3ddf42dqmrw" async></script>
+
+          <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-3P64T4RNKR"
+        ></script>
+
+
         </Head>
         <body>
           <Main />
