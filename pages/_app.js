@@ -6,7 +6,7 @@ import ReactGA from "react-ga";
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     // تكوين Google Analytics
-    ReactGA.initialize('UA-6119975531'); // استبدل برمز التتبع الخاص بك
+    ReactGA.initialize('G-3P64T4RNKR'); // استبدل برمز التتبع الخاص بك
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []); // يتم تنفيذ هذا المكون مرة واحدة بعد تحميل الصفحة
 
