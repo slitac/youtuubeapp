@@ -1,8 +1,15 @@
 import "../styles/index.css";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import { DefaultSeo } from "next-seo";
+import ReactGA from "react-ga";
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    // تكوين Google Analytics
+    ReactGA.initialize('UA-6119975531'); // استبدل برمز التتبع الخاص بك
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []); // يتم تنفيذ هذا المكون مرة واحدة بعد تحميل الصفحة
+
   return (
     <Fragment>
       <DefaultSeo
