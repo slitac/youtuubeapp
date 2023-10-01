@@ -29,7 +29,7 @@ class MyDocument extends Document {
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-3P64T4RNKR"
         ></script>
-
+ <meta name="google-site-verification" content="dZPdDlWi41hNWZS-PR3sqIGRE_zTrKbDr2w8JNro29U" />
 
         </Head>
         <body>
